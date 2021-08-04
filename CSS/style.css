@@ -1,0 +1,163 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    color: whitesmoke;
+}
+
+p{
+    font-size: 1.2rem;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* HERO */
+.hero{
+
+    display: inline-block;
+    height: 500px;
+    width: 100%;
+    background-color: #171717;
+    
+}
+.callToAction{
+    background-color: #D01257;
+    transform: skewX(-20deg);
+}
+
+/*_____________________________*/
+
+.headline{
+    color: white;
+    margin: 5% 0 0 5%;
+}
+.headline h2{
+    font-size: 3rem;
+}
+.headline button{
+    margin-top: 10%;
+}
+.headline h4{
+    
+    margin-top: 5%;
+    font-size: 1.5rem;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.accent{
+    color:#D01257;
+}
+
+
+/* COVID 19*/
+#Covid-19{
+    background-color: #D01257;
+    color: whitesmoke;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+#Covid-19 h1{
+    text-align: center;
+
+}
+#Covid-19 p{
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/*____________ ABOUT SECTION____________*/
+
+.aboutSection{
+   
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+#about_club{
+    margin: 5% 5% 0 5%;
+    
+}
+#about_Header{
+    text-align: center;
+    font-size: 3rem;
+}
+
+#about_Header p{
+    display: inline-block;
+}
+.whatWeDo{
+    margin-top: 10%;
+}
+
+/* GALLERY SECTION */
+#gallery{
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+#gallery_Header{
+    font-size: 3rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.carousel-inner{
+    padding-left: 10% ;
+    padding-right: 10%;
+}
+.controlLeft{
+    padding-left: 10%;
+}
+.controlRight{
+    padding-right: 10%;
+}
+/* CONTACT INFORMATION */
+
+#contact{
+    margin: 15% 5% 0 5%;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#contact a{
+    color: black;
+}
+
+
+/* CLUB FOOTER*/
+.clubFooter{
+    background-color: #3b3f48;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-top: 10%;
+    color: whitesmoke;
+    display: inline-block;
+    width: 100%;
+     
+}
+.copyrighttatement p {
+    display: inline-block;
+}
+.socialMediaContainer{
+    color: whitesmoke;
+    padding-top: 2%;
+    margin-bottom: 2%;
+    padding-left: 40%;
+}
+.socialMediaContainer a{
+    margin-top: 2%;
+    display: inline-block;
+    color: whitesmoke;
+}
+.socialMediaContainer a:hover{
+    color: #D01257;
+    cursor: pointer;
+}
+#copyrightStatement{
+    text-align: center;
+    margin-bottom: 2%;
+}
+.socialMediaContainer a{
+    margin-right: 3%;
+}
