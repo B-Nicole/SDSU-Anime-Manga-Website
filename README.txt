@@ -4,3 +4,8 @@
 
 
 # WEBSITE OF SDSU ANIME & MANGA CLUB
+
+# Bootstrap version 4.6
+# HTML
+# CSS
+# Google Fonts
