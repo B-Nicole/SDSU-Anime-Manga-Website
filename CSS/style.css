@@ -82,11 +82,11 @@ p{
     cursor: pointer; 
     font-weight: bolder;
 }
-#Covid-19 h1{
+.covid_Header{
     text-align: center;
 
 }
-#Covid-19 p{
+.Covid_Announcement p{
     margin-left: 15%;
     margin-right: 15%;
     font-family: 'Noto Sans JP', sans-serif;
@@ -237,5 +237,48 @@ p{
     color: #F56040;
     cursor: pointer;
     
+}
+ 
+/********************************/
+/*                              */
+/*        MEDIA QUERIES         */
+/*                              */
+/*******************************/
+
+@media (max-width: 640px) { /* Any device with a width of 640px or smaller*/
+    .covid_Header{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .Covid_Announcement p{
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+
+    .what_We_Do_ListContainer{
+        margin-top: 5%;
+    }
+    .what_We_Do_ListContainer h3{
+        text-align: center;
+    }
+
+    #contact{
+        margin: 6% 5% 3% 5%;
+        text-align: center;
+    }
+
+   
+    .socialMediaContainer{
+        padding-left: 30%;
+    }
+    .socialMediaContainer a{
+        margin-right: 5%;
+       
+    }
+    
+
+}
+@media (min-width: 1008px) { /* Any device with a width of 1080p or larger*/
+
 }
  

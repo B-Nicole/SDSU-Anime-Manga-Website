@@ -13,3 +13,53 @@
 .row_Two{
     margin-top: 3%;
 }
+ 
+/********************************/
+/*                              */
+/*        MEDIA QUERIES         */
+/*                              */
+/*******************************/
+
+@media (max-width: 640px) { /* Any device with a width of 640px or smaller*/
+    .headline{
+        padding: 0%;
+        margin-left: 0%;
+    }
+    .headline h2{
+        text-align: center;
+        font-size: 4rem;
+    }
+    .headline h4{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .covid_Header{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .Covid_Announcement p{
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+     
+    #Anime{
+        margin-top: 10%;
+    }
+
+    .anime_Img_Holder, .manga_Img_Holder{
+        margin-bottom: 5%;
+    }
+    .socialMediaContainer{
+        padding-left: 30%;
+    }
+    .socialMediaContainer a{
+        margin-right: 5%;
+       
+    }
+    
+}
+
+@media (min-width: 1008px) { /* Any device with a width of 1080p or larger*/
+
+}
+ 
