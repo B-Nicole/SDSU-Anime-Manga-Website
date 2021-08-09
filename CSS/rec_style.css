@@ -4,7 +4,12 @@
 
 }
 .rec_heading{
-    text-align: center;
+    
+    font-family: 'Open Sans', sans-serif;
     font-size: 3rem;
     margin-bottom: 5%;
+    text-align: center;
+}
+.row_Two{
+    margin-top: 3%;
 }

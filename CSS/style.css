@@ -1,4 +1,10 @@
 
+/********************************/
+/*                              */
+/*          GLOBAL              */
+/*                              */
+/*******************************/
+
 html{
     scroll-behavior: smooth;
 }
@@ -15,7 +21,12 @@ p{
     font-family: 'Noto Sans JP', sans-serif;
 }
 
-/* HERO */
+
+/********************************/
+/*                              */
+/*            HERO              */
+/*                              */
+/*******************************/
 .hero{
 
     display: inline-block;
@@ -24,7 +35,7 @@ p{
     background-color: #171717;
     
 }
-.Hero_row{
+.hero_row{
     display: flex;
 }
 .callToAction{
@@ -54,13 +65,22 @@ p{
     color:#D01257;
 }
 
+/********************************/
+/*                              */
+/*          COVID-19            */
+/*                              */
+/*******************************/
 
-/* COVID 19*/
 #Covid-19{
     background-color: #D01257;
     color: whitesmoke;
     padding-top: 3%;
     padding-bottom: 3%;
+}
+#Covid-19 a:hover{
+    color: whitesmoke;
+    cursor: pointer; 
+    font-weight: bolder;
 }
 #Covid-19 h1{
     text-align: center;
@@ -72,38 +92,53 @@ p{
     font-family: 'Noto Sans JP', sans-serif;
 }
 
-/*____________ ABOUT SECTION____________*/
+/********************************/
+/*                              */
+/*         ABOUT SECTION        */
+/*                              */
+/*******************************/
 
-.aboutSection{
+#About{
    
     padding-top: 2%;
     padding-bottom: 5%;
 }
-.about_lineBreak{
-    width: 100%;
+#About p{
+    display: inline-block;
 }
-#about_club{
-    margin: 5% 0% 0 0%;
+
+.about_Club{
+    margin: 3% 0% 0 0%;
     
 }
-#about_Header{
+.about_Header{
     text-align: center;
     font-size: 3rem;
 }
-
-#about_Header p{
-    display: inline-block;
+.about_subheader{
+    text-align: center;
+    font-size: 2rem;
 }
-.whatWeDo{
+.subsection{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.what_We_Do{
     margin-top: 10%;
 }
 
-/* GALLERY SECTION */
+/********************************/
+/*                              */
+/*       GALLERY SECTION        */
+/*                              */
+/*******************************/
+
 #gallery{
     padding-top: 2%;
     padding-bottom: 5%;
 }
-#gallery_Header{
+.gallery_Header{
     font-size: 3rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
@@ -115,13 +150,19 @@ p{
     padding-left: 10% ;
     padding-right: 10%;
 }
-.controlLeft{
+.control_Left{
     padding-left: 10%;
 }
-.controlRight{
+.control_Right{
     padding-right: 10%;
 }
-/* CONTACT INFORMATION */
+
+
+/********************************/
+/*                              */
+/*        CONTACT INFO          */
+/*                              */
+/*******************************/
 
 #contact{
     margin: 15% 5% 0 5%;
@@ -132,38 +173,69 @@ p{
 }
 
 
-/* CLUB FOOTER*/
-.clubFooter{
+/********************************/
+/*                              */
+/*         CLUB FOOTER          */
+/*                              */
+/*******************************/
+
+.club_Footer{
     background-color: #3b3f48;
-    font-family: 'Noto Sans JP', sans-serif;
-    margin-top: 10%;
     color: whitesmoke;
     display: inline-block;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-top: 10%;
     width: 100%;
      
 }
-.copyrighttatement p {
+.copyright_Statement {
     display: inline-block;
 }
+.copyright_Statement_Container{
+    margin-bottom: 2%;
+    text-align: center;
+    
+}
+.copyright_Statement_Container .creator_Link:hover{
+
+    color: whitesmoke;
+    cursor: pointer;
+    text-decoration: underline;
+   
+}
+ 
 .socialMediaContainer{
     color: whitesmoke;
-    padding-top: 2%;
     margin-bottom: 2%;
     padding-left: 37%;
+    padding-top: 2%;
 }
 .socialMediaContainer a{
-    margin-top: 2%;
-    display: inline-block;
     color: whitesmoke;
+    display: inline-block;
+    margin-right: 3%;
+    margin-top: 2%;
+   
 }
-.socialMediaContainer a:hover{
-    color: #D01257;
+
+
+/* HOVER STATES FOR EACH OF THE LINKS*/
+
+.socialMediaContainer .facebook:hover{
+    color: #4267B2;
     cursor: pointer;
 }
-#copyrightStatement{
-    text-align: center;
-    margin-bottom: 2%;
+.socialMediaContainer .twitter:hover{
+    color: #1DA1F2;
+    cursor: pointer;
 }
-.socialMediaContainer a{
-    margin-right: 3%;
+.socialMediaContainer .discord:hover{
+    color: #7289da;
+    cursor: pointer;
 }
+.socialMediaContainer .fa-instagram:hover{
+    color: #F56040;
+    cursor: pointer;
+    
+}
+ 
