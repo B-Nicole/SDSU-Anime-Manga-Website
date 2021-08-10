@@ -1,4 +1,10 @@
  
+.headline h2{
+    font-size: 4rem;
+}
+.headline h4{
+    font-size: 1.6rem;
+}
 #Anime, #Manga{
     margin: 5% 2% 2% 2%;
 
