@@ -245,7 +245,7 @@ p{
 /*                              */
 /*******************************/
 
-@media (max-width: 640px) { /* Any device with a width of 640px or smaller*/
+@media (max-width: 740px) { /* Any device with a width of 640px or smaller*/
     .covid_Header{
         margin-left: 2%;
         margin-right: 2%;
@@ -269,7 +269,7 @@ p{
 
    
     .socialMediaContainer{
-        padding-left: 30%;
+        padding-left: 33%;
     }
     .socialMediaContainer a{
         margin-right: 5%;
@@ -278,7 +278,7 @@ p{
     
 
 }
-@media (min-width: 1008px) { /* Any device with a width of 1080p or larger*/
+/*@media (min-width: 1008px) {  Any device with a width of 1080p or larger
 
 }
- 
+ */
