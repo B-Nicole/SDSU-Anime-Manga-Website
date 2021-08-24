@@ -19,7 +19,11 @@
 .row_Two{
     margin-top: 3%;
 }
- 
+
+.reccomendationBtn{
+    margin-left: 7%;
+    margin-top: 3%;
+}
 /********************************/
 /*                              */
 /*        MEDIA QUERIES         */
