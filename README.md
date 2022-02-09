@@ -9,3 +9,7 @@
 # HTML
 # CSS
 # Google Fonts
+
+# UPDATE: January 18 2022
+#### updated the reccomendation section
+#### updated the gallery pictures
